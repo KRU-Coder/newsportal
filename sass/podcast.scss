@@ -1,0 +1,206 @@
+@import "var";
+#podcast {
+  background-color: #f1f3f4;
+  padding: 85px 0;
+  .podcast-main {
+    .podcast-main-img {
+      img {
+        width: 100%;
+      }
+    }
+    .podcast-main-detail {
+      background-color: $white;
+      padding: 40px 0;
+      .ep {
+        font-weight: 600;
+        background-color: $secondary;
+        padding: 10px;
+        color: $white;
+      }
+      .title {
+        margin-top: 20px;
+        font-weight: 600;
+        font-size: 26px;
+        text-align: center;
+      }
+      p {
+        margin: 20px 0;
+        line-height: 1.8;
+        padding: 0px 40px;
+      }
+      .player {
+        audio {
+          background-color: #f1f3f4;
+          width: 100%;
+          border-radius: 0;
+        }
+      }
+      .listeners {
+        background-color: #f1f3f4;
+        width: 100%;
+        padding: 10px;
+        border-bottom: 1px solid $primary;
+        display: inline-block;
+        ul {
+          text-align: center;
+          li {
+            display: inline;
+            margin-right: 20px;
+            font-size: 14px;
+            color: $secondary;
+            font-weight: 500;
+            a {
+              color: $secondary;
+            }
+          }
+          .share {
+            margin-left: 40px;
+          }
+        }
+      }
+    }
+  }
+  .podcast-cards {
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.483);
+    padding: 20px;
+    margin-top: 40px;
+    .podcast-card-inner {
+      display: flex;
+      align-items: center;
+      .podcast-card-img {
+        width: 250px;
+        height: 150px;
+        img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+        }
+      }
+      .podcast-card-detail {
+        margin-left: 40px;
+        h5{
+            font-weight: 600;
+        }
+        p {
+          padding: 20px 0;
+        }
+        .others {
+          display: flex;
+          justify-content: space-between;
+          margin: 10px 0;
+          padding-bottom: 10px;
+          border-bottom: 2px solid #ddd;
+          .rating {
+            ul {
+              li {
+                display: inline;
+                color: orange;
+              }
+            }
+          }
+          .total-listen {
+            color: $primary;
+          }
+          .social-share {
+            ul {
+              li {
+                display: inline;
+                color: $primary;
+                margin-right: 10px;
+                a {
+                  i {
+                    padding: 10px;
+                    color: $white;
+                  }
+                  .fa-facebook {
+                    background-color: #3b5998;
+                  }
+                  .fa-twitter {
+                    background-color: #00acee;
+                  }
+                  .fa-instagram {
+                    background-color: $secondary;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+
+    .podcast-card-bottom {
+      padding: 10px;
+      display: block;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-top: 2px solid #ddd;
+
+      .cata {
+        padding: 5px 10px;
+        font-size: 14px;
+        font-weight: 600;
+        border-radius: 50px;
+        background-color: #ddd;
+        margin: 10px;
+        display: inline-block;
+        a {
+          color: $black;
+        }
+      }
+      .play-now {
+        background-color: red;
+        color: $white;
+        &:focus {
+          box-shadow: none;
+        }
+      }
+    }
+  }
+  .bottom-main-player {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+    padding: 20px;
+    background-color: #f1f3f4;
+    border-top: 3px solid $secondary;
+    .row {
+      align-items: center;
+    }
+    .bottom-main-player-detail {
+      display: flex;
+      align-items: center;
+      .bottom-main-player-detail-img {
+        img {
+          width: 90px;
+          height: 90px;
+          object-fit: cover;
+        }
+      }
+      .bottom-main-player-detail-article {
+        margin-left: 40px;
+        h5 {
+          font-weight: 600;
+          font-size: 24px;
+        }
+      }
+    }
+    .bottom-main-player-audio-player {
+      position: relative;
+      .player-close {
+        position: absolute;
+        top: -61px;
+        right: -35px;
+        background-color: #f1f3f4;
+        padding: 10px;
+        color: $secondary;
+        font-weight: 600;
+        display: inline-block;
+        cursor: pointer;
+      }
+    }
+  }
+}

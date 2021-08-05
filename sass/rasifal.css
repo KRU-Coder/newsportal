@@ -1,0 +1,149 @@
+#rasifal .rasifal-top {
+  text-align: center;
+  padding: 25px 0;
+  background-color: #E93B81;
+  color: #FFFFFF;
+  margin-bottom: 40px;
+}
+
+#rasifal .rasifal-top h2 {
+  border-bottom: 2px solid #fff;
+  padding-bottom: 5px;
+  display: inline-block;
+}
+
+#rasifal .rasifal-top span {
+  padding-top: 20px;
+  display: block;
+}
+
+#rasifal .rasifal-wrapper {
+  text-align: center;
+  cursor: pointer;
+  margin-bottom: 60px;
+  padding: 20px 30px;
+  border: 1px solid #132C33;
+}
+
+#rasifal .rasifal-wrapper:hover .rasifal-icon {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+
+#rasifal .rasifal-wrapper .rasifal-icon {
+  -webkit-transition: 0.9s;
+  transition: 0.9s;
+}
+
+#rasifal .rasifal-wrapper .rasifal-name {
+  font-size: 18px;
+  position: relative;
+  padding: 5px 20px;
+  border-bottom: 2px solid #132C33;
+}
+
+#rasifal .rasifal-wrapper .rasifal-name::before {
+  content: '';
+  position: absolute;
+  top: -15px;
+  left: -21px;
+  background: url(../images/feather.svg);
+  width: 50px;
+  height: 50px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#rasifal .rasifal-wrapper .date {
+  padding-top: 10px;
+  display: inline-block;
+  font-size: 14px;
+}
+
+#rasifal .modal {
+  background-color: #FFFFFF;
+}
+
+#rasifal .modal .btn-close:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+#rasifal .modal .modal-content {
+  background: none;
+  border-radius: 0;
+  border: none;
+  text-align: center;
+}
+
+#rasifal .modal .modal-content .modal-header {
+  border: none;
+}
+
+#rasifal .modal .modal-content .modal-header .btn-close {
+  background: none;
+}
+
+#rasifal .modal .modal-content .modal-header .btn-close::after {
+  content: 'X';
+  color: red;
+  font-size: 24px;
+}
+
+#rasifal .modal .modal-content .modal-body {
+  background: url(../images/astrobg.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+#rasifal .modal .modal-content .modal-body::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.627);
+}
+
+#rasifal .modal .modal-content .rasifal-detail {
+  padding: 40px;
+  position: relative;
+  z-index: 2;
+}
+
+#rasifal .modal .modal-content .rasifal-detail .rasifa-detail-icon {
+  -webkit-box-shadow: 2px 2px 26px red;
+          box-shadow: 2px 2px 26px red;
+  display: inline-block;
+  background-color: #fff;
+  border-radius: 50%;
+}
+
+#rasifal .modal .modal-content .rasifal-detail .rasifa-detail-icon img {
+  width: 90px;
+}
+
+#rasifal .modal .modal-content .rasifal-detail .rasifal-detail-name {
+  font-size: 56px;
+  font-weight: bolder;
+  padding: 20px 0;
+  color: #FFFFFF;
+}
+
+#rasifal .modal .modal-content .rasifal-detail .rasifa-detail-date {
+  color: #FFFFFF;
+  background-color: orangered;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+#rasifal .modal .modal-content .rasifal-detail p {
+  color: #FFFFFF;
+  padding: 20px 0;
+  line-height: 1.8;
+}
+/*# sourceMappingURL=rasifal.css.map */

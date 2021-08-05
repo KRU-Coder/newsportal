@@ -1,0 +1,41 @@
+@import 'var';
+#tv{
+    .row{
+        --bs-gutter-x: 4.5rem;
+    }
+    .tv-program{
+        background-color: $black;
+        padding: 20px;
+        margin-top: 40px;
+       .tv-program-wrapper{
+           margin-bottom: 20px;
+           .tv-program-img{
+               position: relative;
+               .duration{
+                   position: absolute;
+                   bottom: 0;
+                   left: 0;
+                   background-color: #000;
+                   color: $white;
+                   padding: 10px 20px;
+                   &::before{
+                       content: '\f144';
+                       font-family: 'FontAwesome';
+                       padding-right: 10px;
+                       color: red;
+                   }
+
+               }
+           }
+           .tv-program-detail{
+               text-align: center;
+               h5{
+                   a{
+                    color: $white;
+                    padding-top: 20px;
+                   }
+               }
+           }
+       } 
+    }
+}

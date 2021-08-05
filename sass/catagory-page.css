@@ -1,0 +1,105 @@
+#catagory-page .catagory-page-main {
+  background-position: center center !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+}
+
+#catagory-page .catagory-page-main .row {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#catagory-page .catagory-page-main .catagory-page-main-left {
+  position: relative;
+  text-align: center;
+}
+
+#catagory-page .catagory-page-main .catagory-page-main-left .catagory-page-main-left-wrapper h5 a {
+  font-size: 36px;
+  font-weight: bold;
+  line-height: 1.5;
+  color: #FFFFFF;
+  padding: 20px 0;
+  text-shadow: 2px 2px 2px #000;
+}
+
+#catagory-page .catagory-page-main .catagory-page-main-left .catagory-page-main-left-wrapper .date {
+  color: #FFFFFF;
+  padding-top: 10px;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 100;
+  margin-right: 60px;
+  text-shadow: 2px 2px 2px #000;
+}
+
+#catagory-page .catagory-page-main .catagory-page-main-left .catagory-page-main-left-wrapper .date::before {
+  content: "\f073";
+  font-family: "FontAwesome";
+  padding-right: 10px;
+}
+
+#catagory-page .catagory-page-main .catagory-page-main-left .catagory-page-main-left-wrapper .author {
+  color: #FFFFFF;
+  padding-top: 10px;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 100;
+  text-shadow: 2px 2px 2px #000;
+}
+
+#catagory-page .catagory-page-main .catagory-page-main-left .catagory-page-main-left-wrapper .author::before {
+  content: "\f040";
+  font-family: "FontAwesome";
+  padding-right: 10px;
+}
+
+#catagory-page .catagory-page-main .catagory-page-main-right {
+  position: relative;
+}
+
+#catagory-page .catagory-page-main .catagory-page-main-right .catagory-page-main-right-wrapper {
+  border-bottom: 1px solid #fff;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.578);
+}
+
+#catagory-page .catagory-page-main .catagory-page-main-right .catagory-page-main-right-wrapper:last-child {
+  margin-bottom: 0;
+}
+
+#catagory-page .catagory-page-main .catagory-page-main-right .catagory-page-main-right-wrapper h5 a {
+  font-size: 20px;
+  color: #FFFFFF;
+  padding: 20px 0;
+}
+
+#catagory-page .catagory-page-main .catagory-page-main-right .catagory-page-main-right-wrapper .date {
+  color: #FFFFFF;
+  padding-top: 10px;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 100;
+}
+
+#catagory-page .catagory-page-main .catagory-page-main-right .catagory-page-main-right-wrapper .date::before {
+  content: "\f073";
+  font-family: "FontAwesome";
+  padding-right: 10px;
+}
+
+#catagory-page .catagory-page-main .catagory-page-main-right .catagory-page-main-right-wrapper .author {
+  color: #FFFFFF;
+  padding-top: 10px;
+  float: right;
+  font-size: 14px;
+  font-weight: 100;
+}
+
+#catagory-page .catagory-page-main .catagory-page-main-right .catagory-page-main-right-wrapper .author::before {
+  content: "\f040";
+  font-family: "FontAwesome";
+  padding-right: 10px;
+}
+/*# sourceMappingURL=catagory-page.css.map */

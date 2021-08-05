@@ -1,0 +1,27 @@
+#gallery .row {
+  --bs-gutter-x: 0rem;
+}
+
+#gallery .g-photo {
+  position: relative;
+  height: 450px;
+}
+
+#gallery .g-photo img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+#gallery .g-photo .photo-caption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(255, 0, 0, 0.279);
+  width: 100%;
+  text-align: center;
+  color: #fff;
+  padding: 10px 0;
+}
+/*# sourceMappingURL=gallery.css.map */

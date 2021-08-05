@@ -1,0 +1,181 @@
+@import 'var';
+#inner-page{
+    .row{
+        --bs-gutter-x: 3.5rem;
+    }
+    .inner-detail{
+        h2{
+            font-size: 36px;
+            font-weight: 600;
+            padding-bottom: 40px;
+        }
+        p{
+            line-height: 2;
+            font-size: 22px;
+            padding: 20px 0;
+        }
+        .inner-misc{
+            float: left;
+            ul{
+                .authot-abtar{
+                    width: 40px;
+                    height:40px;
+                    margin-right: 5px;
+                    img{
+                        object-fit: cover;
+                        border-radius: 50%;
+                        height: 100%;
+                    }
+                    
+                }
+                .author{
+                    font-weight: 600;
+                    color: lightgray;
+                }
+                .date{
+                    color: lightgray;
+                    &::before{
+                        content: '\f073';
+                        font-family: 'FontAwesome';
+                        padding-right: 10px;
+                        
+                    }
+                }
+                li{
+                    display: inline-block;
+                    margin-right: 20px;
+                }
+            }
+        }
+        .inner-social-share{
+            float: right;
+            display: flex;
+            .total-share{
+                font-weight: 600;
+                text-align: center;
+                margin-right: 20px;
+                span{
+                    color: $secondary;
+                    display: block;
+                }
+            }
+            ul{
+                li{
+                    display: inline-block;
+                    
+                    a{
+                        i{
+                            padding: 10px 20px;
+                    border: 1px solid lightgray;
+                        }
+                        .fa-facebook{
+                            color:#3b5998 ;
+                            &:hover{
+                                background-color: #3b5998;
+                                color: $white;
+                            }
+                        }
+                        .fa-twitter{
+                            color: #00acee;
+                            &:hover{
+                                background-color: #00acee;
+                                color: $white;
+                            } 
+                        }
+                        .fa-whatsapp{
+                            color: #25d366;
+                            &:hover{
+                                background-color: #25d366;
+                                color: $white;
+                            } 
+                        }
+                    }
+                }
+            }
+        }
+        .clear{
+            clear: both;
+        }
+        .inner-img{
+            margin: 40px 0;
+            
+        }
+        .quote{
+            margin: 40px;
+            border-top: 2px solid red;
+            border-bottom: 2px solid red;
+            p{
+                font-weight: bolder;
+                &::before{
+                    content: '\f10d';
+                    font-family: 'FontAwesome';
+                    padding-right: 10px;
+                    color: red;
+                    font-size: 28px;
+                }
+            }
+        }
+    }
+}
+#sidebar{
+    .side-bar-title{
+        border-bottom: 2px solid $secondary;
+        margin-bottom: 20px;
+        h5{
+            color: $secondary;
+            font-size: 26px;
+            font-weight: bolder;
+        }
+    }
+    .sidebar-most-recent{
+        display: flex;
+        align-items: center;
+        border-bottom: 1px solid lightgray;
+       
+        margin-bottom: 20px;
+        .most-recent-img{
+            width: 120px;
+            position: relative;
+        }
+        .most-recent-detail{
+            margin-left: 20px;
+            .badge{
+                background-color: $secondary;
+                margin: 10px 0;
+                border-radius: 0;
+            }
+            h5{
+                a{
+                    line-height: 1.5;
+                    font-weight: 600;
+                    color: $black;
+                    padding-bottom: 10px;
+                }
+            }
+            .date{
+                color: lightgray;
+                &::before{
+                    content: '\f073';
+                    font-family: 'FontAwesome';
+                    padding-right: 10px;
+                }
+            }
+        }
+        .count{
+            display: inline-block;
+            background-color:$secondary;
+            position: absolute;
+            top: -16px;
+            left: -16px;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            text-align: center;
+            font-size: 24px;
+            color: #FFFFFF;
+            font-size: 16px;
+            padding: 8px 3px;
+
+        }
+    }
+}

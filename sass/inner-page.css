@@ -1,0 +1,203 @@
+#inner-page .row {
+  --bs-gutter-x: 3.5rem;
+}
+
+#inner-page .inner-detail h2 {
+  font-size: 36px;
+  font-weight: 600;
+  padding-bottom: 40px;
+}
+
+#inner-page .inner-detail p {
+  line-height: 2;
+  font-size: 22px;
+  padding: 20px 0;
+}
+
+#inner-page .inner-detail .inner-misc {
+  float: left;
+}
+
+#inner-page .inner-detail .inner-misc ul .authot-abtar {
+  width: 40px;
+  height: 40px;
+  margin-right: 5px;
+}
+
+#inner-page .inner-detail .inner-misc ul .authot-abtar img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 50%;
+  height: 100%;
+}
+
+#inner-page .inner-detail .inner-misc ul .author {
+  font-weight: 600;
+  color: lightgray;
+}
+
+#inner-page .inner-detail .inner-misc ul .date {
+  color: lightgray;
+}
+
+#inner-page .inner-detail .inner-misc ul .date::before {
+  content: '\f073';
+  font-family: 'FontAwesome';
+  padding-right: 10px;
+}
+
+#inner-page .inner-detail .inner-misc ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+#inner-page .inner-detail .inner-social-share {
+  float: right;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#inner-page .inner-detail .inner-social-share .total-share {
+  font-weight: 600;
+  text-align: center;
+  margin-right: 20px;
+}
+
+#inner-page .inner-detail .inner-social-share .total-share span {
+  color: #E93B81;
+  display: block;
+}
+
+#inner-page .inner-detail .inner-social-share ul li {
+  display: inline-block;
+}
+
+#inner-page .inner-detail .inner-social-share ul li a i {
+  padding: 10px 20px;
+  border: 1px solid lightgray;
+}
+
+#inner-page .inner-detail .inner-social-share ul li a .fa-facebook {
+  color: #3b5998;
+}
+
+#inner-page .inner-detail .inner-social-share ul li a .fa-facebook:hover {
+  background-color: #3b5998;
+  color: #FFFFFF;
+}
+
+#inner-page .inner-detail .inner-social-share ul li a .fa-twitter {
+  color: #00acee;
+}
+
+#inner-page .inner-detail .inner-social-share ul li a .fa-twitter:hover {
+  background-color: #00acee;
+  color: #FFFFFF;
+}
+
+#inner-page .inner-detail .inner-social-share ul li a .fa-whatsapp {
+  color: #25d366;
+}
+
+#inner-page .inner-detail .inner-social-share ul li a .fa-whatsapp:hover {
+  background-color: #25d366;
+  color: #FFFFFF;
+}
+
+#inner-page .inner-detail .clear {
+  clear: both;
+}
+
+#inner-page .inner-detail .inner-img {
+  margin: 40px 0;
+}
+
+#inner-page .inner-detail .quote {
+  margin: 40px;
+  border-top: 2px solid red;
+  border-bottom: 2px solid red;
+}
+
+#inner-page .inner-detail .quote p {
+  font-weight: bolder;
+}
+
+#inner-page .inner-detail .quote p::before {
+  content: '\f10d';
+  font-family: 'FontAwesome';
+  padding-right: 10px;
+  color: red;
+  font-size: 28px;
+}
+
+#sidebar .side-bar-title {
+  border-bottom: 2px solid #E93B81;
+  margin-bottom: 20px;
+}
+
+#sidebar .side-bar-title h5 {
+  color: #E93B81;
+  font-size: 26px;
+  font-weight: bolder;
+}
+
+#sidebar .sidebar-most-recent {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-bottom: 1px solid lightgray;
+  margin-bottom: 20px;
+}
+
+#sidebar .sidebar-most-recent .most-recent-img {
+  width: 120px;
+  position: relative;
+}
+
+#sidebar .sidebar-most-recent .most-recent-detail {
+  margin-left: 20px;
+}
+
+#sidebar .sidebar-most-recent .most-recent-detail .badge {
+  background-color: #E93B81;
+  margin: 10px 0;
+  border-radius: 0;
+}
+
+#sidebar .sidebar-most-recent .most-recent-detail h5 a {
+  line-height: 1.5;
+  font-weight: 600;
+  color: #132C33;
+  padding-bottom: 10px;
+}
+
+#sidebar .sidebar-most-recent .most-recent-detail .date {
+  color: lightgray;
+}
+
+#sidebar .sidebar-most-recent .most-recent-detail .date::before {
+  content: '\f073';
+  font-family: 'FontAwesome';
+  padding-right: 10px;
+}
+
+#sidebar .sidebar-most-recent .count {
+  display: inline-block;
+  background-color: #E93B81;
+  position: absolute;
+  top: -16px;
+  left: -16px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 24px;
+  color: #FFFFFF;
+  font-size: 16px;
+  padding: 8px 3px;
+}
+/*# sourceMappingURL=inner-page.css.map */

@@ -1,0 +1,97 @@
+@import "var";
+#catagory-page {
+  .catagory-page-main {
+      background-position: center center !important;
+      background-repeat: no-repeat !important;
+      background-size: cover !important;
+      .row{
+          align-items: center;
+      }
+      .catagory-page-main-left{
+          position: relative;
+         text-align: center;
+          .catagory-page-main-left-wrapper{
+           
+          h5 {
+            a {
+              font-size: 36px;
+              font-weight: bold;
+              line-height: 1.5;
+              color: $white;
+              padding: 20px 0;
+              text-shadow: 2px 2px 2px #000;
+            }
+          }
+          .date {
+            color: $white;
+            padding-top: 10px;
+            display: inline-block;
+            font-size: 14px;
+            font-weight: 100;
+            margin-right: 60px;
+            text-shadow: 2px 2px 2px #000;
+            &::before {
+              content: "\f073";
+              font-family: "FontAwesome";
+              padding-right: 10px;
+            }
+          }
+          .author {
+            color: $white;
+            padding-top: 10px;
+            display: inline-block;
+            font-size: 14px;
+            font-weight: 100;
+            text-shadow: 2px 2px 2px #000;
+            &::before {
+              content: "\f040";
+              font-family: "FontAwesome";
+              padding-right: 10px;
+            }
+          }
+        }
+      }
+    .catagory-page-main-right {
+        position: relative;
+      .catagory-page-main-right-wrapper {
+        border-bottom: 1px solid #fff;
+        padding: 20px;
+        background-color: rgba(0, 0, 0, 0.578);
+        &:last-child{
+            margin-bottom: 0;
+        }
+        h5 {
+          a {
+            font-size: 20px;
+            color: $white;
+            padding: 20px 0;
+          }
+        }
+        .date {
+          color: $white;
+          padding-top: 10px;
+          display: inline-block;
+          font-size: 14px;
+          font-weight: 100;
+          &::before {
+            content: "\f073";
+            font-family: "FontAwesome";
+            padding-right: 10px;
+          }
+        }
+        .author {
+          color: $white;
+          padding-top: 10px;
+          float: right;
+          font-size: 14px;
+          font-weight: 100;
+          &::before {
+            content: "\f040";
+            font-family: "FontAwesome";
+            padding-right: 10px;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,43 @@
+#tv .row {
+  --bs-gutter-x: 4.5rem;
+}
+
+#tv .tv-program {
+  background-color: #132C33;
+  padding: 20px;
+  margin-top: 40px;
+}
+
+#tv .tv-program .tv-program-wrapper {
+  margin-bottom: 20px;
+}
+
+#tv .tv-program .tv-program-wrapper .tv-program-img {
+  position: relative;
+}
+
+#tv .tv-program .tv-program-wrapper .tv-program-img .duration {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: #000;
+  color: #FFFFFF;
+  padding: 10px 20px;
+}
+
+#tv .tv-program .tv-program-wrapper .tv-program-img .duration::before {
+  content: '\f144';
+  font-family: 'FontAwesome';
+  padding-right: 10px;
+  color: red;
+}
+
+#tv .tv-program .tv-program-wrapper .tv-program-detail {
+  text-align: center;
+}
+
+#tv .tv-program .tv-program-wrapper .tv-program-detail h5 a {
+  color: #FFFFFF;
+  padding-top: 20px;
+}
+/*# sourceMappingURL=tv.css.map */

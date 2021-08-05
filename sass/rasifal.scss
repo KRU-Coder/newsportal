@@ -1,0 +1,132 @@
+@import 'var';
+#rasifal{
+    .rasifal-top{
+        text-align: center;
+        padding: 25px 0;
+        background-color: $secondary;
+        color: $white;
+        margin-bottom: 40px;
+        h2{
+            
+            border-bottom: 2px solid #fff;
+            padding-bottom: 5px;
+            display: inline-block;
+        }
+        span{
+            padding-top: 20px;
+            display: block;
+        }
+    }
+    
+    .rasifal-wrapper{
+        text-align: center;
+        cursor: pointer;
+        margin-bottom: 60px;
+        padding: 20px 30px;
+        border:  1px solid $black;
+        &:hover{
+           .rasifal-icon{
+               transform: rotate(360deg);
+           } 
+        }
+        .rasifal-icon{
+            transition: 0.9s;
+        }
+        .rasifal-name{
+            font-size: 18px;
+            position: relative;
+            padding: 5px 20px;
+            border-bottom: 2px solid $black;
+    &::before{
+        content: '';
+        position: absolute;
+        top: -15px;
+    left: -21px;
+        background: url(../images/feather.svg);
+        width: 50px;
+        height: 50px;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+        }
+        .date{
+            padding-top: 10px;
+            display: inline-block;
+            font-size: 14px;
+        }
+        
+    }
+    .modal{
+        background-color: $white;
+        .btn-close{
+            &:focus{
+                box-shadow: none;
+            }
+        }
+        .modal-content{
+            background: none;
+            .modal-header{
+                border: none;
+                .btn-close{
+                    background: none;
+                    &::after{
+                        content: 'X';
+                        color: red;
+                        font-size: 24px;
+                    }
+                }
+            }
+            .modal-body{
+                background: url(../images/astrobg.jpg);
+                background-position: center center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                position: relative;
+                &::after{
+                    content: '';
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    right: 0;
+                    bottom: 0;
+                    background-color: rgba(0, 0, 0, 0.627);
+                }
+            }
+            border-radius: 0;
+            border:  none;
+            text-align: center;
+            .rasifal-detail{
+                padding: 40px;
+                position: relative;
+                z-index: 2;
+                .rasifa-detail-icon{
+                    box-shadow: 2px 2px 26px red;
+                    display: inline-block;
+                    background-color: #fff;
+                    border-radius: 50%;
+                    img{
+                        width: 90px;
+                    }
+                }
+                .rasifal-detail-name{
+                    font-size: 56px;
+                    font-weight: bolder;
+                    padding: 20px 0;
+                    color: $white;
+                }
+                .rasifa-detail-date{
+                    color: $white;
+                    background-color: orangered;
+                    padding: 10px 20px;
+                    border-radius: 5px;
+                }
+                p{
+                    color: $white;
+                    padding: 20px 0;
+                    line-height: 1.8;
+                }
+            }
+        }
+    }
+}
